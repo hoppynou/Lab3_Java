@@ -1,6 +1,6 @@
 package com.example.lab3;
 
-import android.content.Intent; // Обязательно добавь этот импорт
+import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn_constraint).setOnClickListener(v ->
                 startActivity(new Intent(this, ConstraintActivity.class)));
 
-        // 3. Переход на экран с FrameLayout (пока будет гореть красным, сейчас создадим)
+        // 3. Переход на экран с FrameLayout
         findViewById(R.id.btn_frame).setOnClickListener(v ->
                 startActivity(new Intent(this, FrameActivity.class)));
     }

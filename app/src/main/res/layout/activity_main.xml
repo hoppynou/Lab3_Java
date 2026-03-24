@@ -11,19 +11,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        android:text="1. LinearLayout (Чат)" />
+        android:text="1. Чат (LinearLayout)" />
 
     <Button
         android:id="@+id/btn_constraint"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        android:text="2. ConstraintLayout (Чат)" />
+        android:text="2. Чат (ConstraintLayout)" />
 
     <Button
         android:id="@+id/btn_frame"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="3. FrameLayout (Вьювер)" />
+        android:text="3. Картинки (FrameLayout)" />
 
 </LinearLayout>
